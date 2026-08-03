@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #1a2040;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-navy-800 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 hover:bg-navy-700 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 bg-emerald-500 text-white px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 hover:bg-emerald-600 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0;
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border-2 border-navy-800 text-navy-800 px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 hover:bg-navy-800 hover:text-white hover:-translate-y-0.5;
+  }
+  .section-heading {
+    @apply text-3xl md:text-4xl font-bold text-navy-800 leading-tight;
+  }
+  .section-subheading {
+    @apply text-lg text-slate-500 mt-3 max-w-2xl;
+  }
+  .card {
+    @apply bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow duration-300;
+  }
+}
