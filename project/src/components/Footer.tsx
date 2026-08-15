@@ -99,19 +99,19 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Mail size={15} className="text-emerald-500 flex-shrink-0" />
                 <a
-                  href="mailto:sanjay.qexel@gmail.com"
+                  href="mailto:shitald@qexelgxp.in"
                   className="text-sm text-slate-400 hover:text-emerald-400 transition-colors"
                 >
-                  sanjay.qexel@gmail.com
+                  shitald@qexelgxp.in
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={15} className="text-emerald-500 flex-shrink-0" />
                 <a
-                  href="tel:+91866851267"
+                  href="tel:+918850167721"
                   className="text-sm text-slate-400 hover:text-emerald-400 transition-colors"
                 >
-                  +91 866851267
+                  +91 8850167721
                 </a>
               </li>
             </ul>

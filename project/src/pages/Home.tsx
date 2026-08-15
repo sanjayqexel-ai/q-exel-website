@@ -198,7 +198,7 @@ export default function Home() {
             <p className="text-emerald-600 font-semibold text-sm uppercase tracking-wider mb-2">Our Experience</p>
             <h2 className="section-heading">Decades of hands-on GxP impact</h2>
             <p className="section-subheading mx-auto">
-              Led by SK Dhumal — with deep experience in bio-pharma and pharmaceutical quality,
+              Led by Sanjay K.D — with deep experience in bio-pharma and pharmaceutical quality,
               compliance, and regulatory affairs across global markets.
             </p>
           </FadeIn>
@@ -206,7 +206,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-2xl mx-auto">
             {[
               { end: 30, suffix: '+', label: 'Years of GxP Experience', icon: Clock, color: 'text-navy-700', sub: 'Spanning bio-pharma & pharmaceutical sectors' },
-              { end: 250, suffix: '+', label: 'Audits Conducted Globally', icon: Shield, color: 'text-emerald-600', sub: 'Across sterile, non-sterile, and biotech facilities' },
+              { end: 100, suffix: '+', label: 'Audits Conducted Globally', icon: Shield, color: 'text-emerald-600', sub: 'Across sterile, non-sterile, and biotech facilities' },
             ].map(({ end, suffix, label, icon: Icon, color, sub }, i) => (
               <FadeIn key={label} delay={i * 0.1}>
                 <div className="text-center p-10 rounded-2xl bg-slate-50 border border-slate-100 hover:border-emerald-200 transition-all duration-300 group">
@@ -283,7 +283,7 @@ export default function Home() {
               </p>
               <div className="space-y-4">
                 {[
-                  { icon: Shield, title: 'Proven GxP Track Record', desc: '250+ audits and gap assessments globally. Deep expertise in sterile and biotech operations.' },
+                  { icon: Shield, title: 'Proven GxP Track Record', desc: '100+ audits and gap assessments globally. Deep expertise in sterile and biotech operations.' },
                   { icon: Cpu, title: 'Digital Transformation Support', desc: 'eQMS, eDMS, eLMS, eBMR, LIMS, SAP — full digital quality infrastructure implementation and validation.' },
                   { icon: TrendingUp, title: 'All-Time Readiness (ATR)', desc: 'Customised training and readiness programmes that keep your organisation inspection-ready at all times.' },
                   { icon: Users, title: 'End-to-End Support', desc: 'From development through commercialisation — gap assessments, remediation, qualification, and continuous improvement.' },
@@ -317,12 +317,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn className="text-center mb-8">
             <p className="text-slate-500 text-sm font-medium">
-              Our founder's leadership experience includes roles at:
+              Our Founder's leadership experience from multinational bio pharma and pharma at:
             </p>
           </FadeIn>
           <FadeIn>
             <div className="flex flex-wrap justify-center gap-4">
-              {['Pfizer', 'Hospira', 'Lupin', 'Strides', 'Wockhardt Biotech', 'Shilpa Biologicals'].map((co) => (
+              {['Pfizer', 'Hospira', 'Lupin', 'Wockhardt Biotech'].map((co) => (
                 <div
                   key={co}
                   className="px-6 py-3 bg-white rounded-xl border border-slate-200 text-navy-700 font-bold text-sm shadow-sm hover:border-emerald-300 transition-colors"
@@ -392,7 +392,7 @@ export default function Home() {
               <p className="text-slate-500 text-sm leading-relaxed mb-6">
                 We connect the right GxP talent with the right opportunity. Backed by 30+ years of
                 hands-on industry experience, we evaluate functional knowledge and practical GxP
-                exposure — not just CVs. Led by SK Dhumal.
+                exposure — not just CVs. Led by Sanjay K.D.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Link
@@ -404,11 +404,11 @@ export default function Home() {
 
               </div>
             </FadeIn>
-            <FadeIn delay={0.15} className="relative min-h-[280px]">
+            <FadeIn delay={0.15} className="relative min-h-[280px] bg-slate-100 flex items-center justify-center p-4">
               <img
                 src="/images/Q-Exel_GxP_Talent_Solutions_Services.jpeg"
                 alt="Q-Exel GxP Talent Solutions"
-                className="absolute inset-0 w-full h-full object-cover"
+                className="max-w-full max-h-full w-auto h-auto object-contain"
               />
             </FadeIn>
           </div>
@@ -423,7 +423,7 @@ export default function Home() {
               Ready to achieve compliance excellence?
             </h2>
             <p className="text-emerald-100 text-lg mb-8 max-w-xl mx-auto">
-              Book a consultation with SK Dhumal and the Q-Exel GxP team. We assess your business
+              Book a consultation with Sanjay K.D and the Q-Exel GxP team. We assess your business
               risks and address them to your complete satisfaction.
             </p>
             <div className="flex flex-wrap justify-center gap-4">

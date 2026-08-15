@@ -157,6 +157,7 @@ export default function TalentSolutions() {
             </motion.div>
 
             <motion.div
+              className="flex items-center justify-center bg-slate-100 rounded-2xl p-4 overflow-hidden"
               initial={{ opacity: 0, x: 30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
@@ -164,7 +165,7 @@ export default function TalentSolutions() {
               <img
                 src="/images/Q-Exel_GxP_Talent_Solutions_Services.jpeg"
                 alt="Q-Exel GxP Talent Solutions - Specialized Recruitment for Pharma and Biopharma"
-                className="rounded-2xl w-full shadow-2xl border border-white/10"
+                className="rounded-2xl w-full max-h-[520px] object-contain shadow-2xl border border-white/10"
               />
             </motion.div>
           </div>
@@ -362,15 +363,15 @@ export default function TalentSolutions() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <FadeIn>
               <p className="text-emerald-600 font-semibold text-sm uppercase tracking-wider mb-2">Leadership</p>
-              <h2 className="text-3xl font-bold text-navy-800 mb-2">SK Dhumal</h2>
+              <h2 className="text-3xl font-bold text-navy-800 mb-2">Sanjay K.D</h2>
               <p className="text-slate-500 text-sm mb-5">
                 Founder &amp; Principal — Q-Exel GxP Consulting
               </p>
               <p className="text-slate-600 leading-relaxed mb-4">
                 With over 30 years of experience in the biopharmaceutical and pharmaceutical industries,
-                SK Dhumal leads the Q-Exel GxP platform with deep expertise in quality systems, regulatory
+                Sanjay K.D leads the Q-Exel GxP platform with deep expertise in quality systems, regulatory
                 compliance, and GxP training. His career spans leadership roles at Pfizer, Hospira, Lupin,
-                Strides, Wockhardt Biotech, and Shilpa Biologicals.
+                and Wockhardt Biotech.
               </p>
               <p className="text-slate-600 leading-relaxed mb-8">
                 This consulting background ensures every talent search is grounded in real-world GxP
@@ -387,10 +388,10 @@ export default function TalentSolutions() {
                   <Linkedin size={15} /> LinkedIn
                 </a>
                 <a
-                  href="mailto:sanjay.qexel@gmail.com"
+                  href="mailto:shitald@qexelgxp.in"
                   className="flex items-center gap-2 border border-slate-200 text-slate-700 px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-slate-50 transition-colors"
                 >
-                  <Mail size={15} /> sanjay.qexel@gmail.com
+                  <Mail size={15} /> shitald@qexelgxp.in
                 </a>
               </div>
             </FadeIn>
@@ -452,10 +453,10 @@ export default function TalentSolutions() {
                     <Linkedin size={15} /> LinkedIn
                   </a>
                   <a
-                    href="mailto:shital.qexel@gmail.com"
+                    href="mailto:shitald@qexelgxp.in"
                     className="flex items-center gap-2 border border-slate-200 text-slate-700 px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-slate-50 transition-colors"
                   >
-                    <Mail size={15} /> shital.qexel@gmail.com
+                    <Mail size={15} /> shitald@qexelgxp.in
                   </a>
                 </div>
               </div>
@@ -478,8 +479,8 @@ export default function TalentSolutions() {
                   </div>
                   <div>
                     <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Recruitment Email</p>
-                    <a href="mailto:shital.qexel@gmail.com" className="text-navy-800 font-semibold text-sm hover:text-emerald-600 transition-colors">
-                      shital.qexel@gmail.com
+                    <a href="mailto:shitald@qexelgxp.in" className="text-navy-800 font-semibold text-sm hover:text-emerald-600 transition-colors">
+                      shitald@qexelgxp.in
                     </a>
                   </div>
                 </div>
@@ -556,10 +557,10 @@ export default function TalentSolutions() {
                 Discuss a Requirement <ArrowRight size={16} />
               </Link>
               <a
-                href="mailto:sanjay.qexel@gmail.com"
+                href="mailto:shitald@qexelgxp.in"
                 className="inline-flex items-center gap-2 border-2 border-white/50 hover:border-white text-white px-7 py-3.5 rounded-xl font-semibold text-sm transition-all hover:-translate-y-0.5"
               >
-                <Mail size={16} /> sanjay.qexel@gmail.com
+                <Mail size={16} /> shitald@qexelgxp.in
               </a>
             </div>
           </FadeIn>

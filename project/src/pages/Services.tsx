@@ -72,6 +72,7 @@ const services: Service[] = [
       'Computer system validation (GAMP 5 lifecycle)',
       'Technology transfer for oral, sterile, topical, and biological dosage forms',
       'Continued process verification (Stage 3) programmes',
+      'CQV and CSV delivered in collaboration with reliable partners',
     ],
     deliverables: ['Validation Plan', 'Protocols (IQ/OQ/PQ)', 'Validation Summary Report', 'Tech Transfer Dossier'],
     duration: '4–24 weeks',
@@ -152,6 +153,7 @@ const services: Service[] = [
       'Data integrity architecture and governance framework',
       'SAP QM module configuration and validation support',
       'SOP authoring, harmonisation, and document lifecycle management',
+      'Digital transformation delivered in collaboration with reliable partners',
     ],
     deliverables: ['QMS Framework', 'Digital Transformation Roadmap', 'SOP Library', 'Validation Summary'],
     duration: '8–36 weeks',
@@ -494,7 +496,7 @@ export default function Services() {
           <FadeIn>
             <h2 className="text-3xl font-bold text-white mb-4">Not sure which service you need?</h2>
             <p className="text-slate-400 mb-7 max-w-xl mx-auto">
-              Book a complimentary discovery call with SK Dhumal. We'll assess your compliance priorities
+              Book a complimentary discovery call with Sanjay K.D. We'll assess your compliance priorities
               and recommend the right approach for your organisation.
             </p>
             <div className="flex flex-wrap justify-center gap-4">

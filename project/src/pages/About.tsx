@@ -24,7 +24,7 @@ function FadeIn({ children, delay = 0, className = '' }: { children: React.React
 }
 
 const careerHighlights = [
-  '250+ audits and gap assessments conducted globally across sterile and non-sterile facilities',
+  '100+ audits and gap assessments conducted globally across sterile and non-sterile facilities',
   'Pioneered cGxP quality standards and compliance culture initiatives across regulated organisations',
   'Led post-regulatory enforcement remediation programs for FDA, MHRA, and WHO actions',
   'Implemented digital quality systems including eQMS, LIMS, eLAB, and SAP at scale',
@@ -35,7 +35,7 @@ const careerHighlights = [
 ];
 
 const previousRoles = [
-  'Pfizer', 'Hospira', 'Lupin', 'Strides', 'Wockhardt Biotech', 'Shilpa Biologicals',
+  'Pfizer', 'Hospira', 'Lupin', 'Wockhardt Biotech',
 ];
 
 const values = [
@@ -141,7 +141,7 @@ export default function About() {
                     <p className="text-xs text-slate-500 mt-1 font-medium">Years of GxP Experience</p>
                   </div>
                   <div className="bg-emerald-50 border border-emerald-100 rounded-xl p-5 text-center">
-                    <p className="text-3xl font-bold text-emerald-700">250+</p>
+                    <p className="text-3xl font-bold text-emerald-700">100+</p>
                     <p className="text-xs text-slate-500 mt-1 font-medium">Audits Conducted Globally</p>
                   </div>
                 </div>
@@ -153,7 +153,7 @@ export default function About() {
                 <p className="text-emerald-600 font-semibold text-sm uppercase tracking-wider mb-2">
                   Founder &amp; Principal Consultant
                 </p>
-                <h2 className="text-3xl font-bold text-navy-800 mb-1">SK Dhumal</h2>
+                <h2 className="text-3xl font-bold text-navy-800 mb-1">Sanjay K.D</h2>
                 <p className="text-slate-500 text-sm mb-5">
                   Certified ISO Lead Auditor &nbsp;&middot;&nbsp; Qualified GMP Trainer &nbsp;&middot;&nbsp;
                   PG in Microbiology &nbsp;&middot;&nbsp; Diplomas in Pharmacy &amp; Regulatory Affairs
@@ -161,19 +161,19 @@ export default function About() {
 
                 <p className="text-slate-600 leading-relaxed mb-4">
                   With over 30 years of experience in the biopharmaceutical and pharmaceutical industries,
-                  SK Dhumal is a recognised expert in GxP quality systems, regulatory compliance, audits,
+                  Sanjay K.D is a recognised expert in GxP quality systems, regulatory compliance, audits,
                   and training. He has led global efforts to help companies produce high-quality medicines
                   and secure regulatory approvals.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  His career spans leadership quality roles at Pfizer, Hospira, Lupin, Strides, Wockhardt Biotech,
-                  and Shilpa Biologicals — giving him unparalleled practical insight into the challenges facing
+                  His career spans leadership quality roles at Pfizer, Hospira, Lupin, and Wockhardt Biotech,
+                  — giving him unparalleled practical insight into the challenges facing
                   both multinational and mid-size pharma organisations.
                 </p>
 
                 {/* Previous companies */}
                 <div className="mb-6">
-                  <p className="text-xs font-bold text-navy-600 uppercase tracking-wider mb-3">Previous Leadership Roles At</p>
+                  <p className="text-xs font-bold text-navy-600 uppercase tracking-wider mb-3">Leadership Experience From Multinational Bio Pharma &amp; Pharma At</p>
                   <div className="flex flex-wrap gap-2">
                     {previousRoles.map((co) => (
                       <span key={co} className="px-3 py-1.5 bg-white border border-slate-200 text-navy-700 text-xs font-bold rounded-lg shadow-sm">
@@ -212,7 +212,7 @@ export default function About() {
                     <Linkedin size={15} /> LinkedIn
                   </a>
                   <a
-                    href="mailto:sanjay.qexel@gmail.com"
+                    href="mailto:shitald@qexelgxp.in"
                     className="flex items-center gap-2 border border-slate-200 text-slate-700 px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-slate-50 transition-colors"
                   >
                     <Mail size={15} /> Get in Touch
@@ -282,7 +282,7 @@ export default function About() {
 
                 <div className="flex items-center gap-3">
                   <a
-                    href="mailto:sanjay.qexel@gmail.com"
+                    href="mailto:shitald@qexelgxp.in"
                     className="flex items-center gap-2 bg-emerald-600 text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-emerald-700 transition-colors"
                   >
                     <Mail size={15} /> Get in Touch
